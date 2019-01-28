@@ -22,8 +22,8 @@
 - hosts: all
   remote_user: root
   tasks:
-    - name: svn --version
-      command: svn --version
+    - name: su -l -s /bin/bash -c 'svn --version'
+      command: su -l -s /bin/bash -c 'svn --version'
       args:
         warn: false
       register: result
