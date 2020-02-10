@@ -24,9 +24,7 @@
   remote_user: root
   become: true
   tasks:
-    - name: su -l -s /bin/bash -c 'svn --version'
-      command: su -l -s /bin/bash -c 'svn --version'
-      args:
-        warn: false
+    - name: svn --version
+      command: svn --version
       register: result
       changed_when: result is not succeeded
