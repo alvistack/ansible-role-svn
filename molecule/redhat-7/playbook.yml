@@ -25,6 +25,10 @@
   become: true
   tasks:
     - name: svn --version
-      command: svn --version
+      shell: |
+        set -o pipefail
+        svn --version
+      args:
+        executable: "/bin/bash"
       register: result
       changed_when: result is not succeeded
