@@ -1,7 +1,7 @@
 # Ansible Role for SVN
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-svn.svg)](https://travis-ci.com/alvistack/ansible-role-svn)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-svn.svg)](https://github.com/alvistack/ansible-role-svn)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-svn.svg)](https://github.com/alvistack/ansible-role-svn/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-svn.svg)](https://github.com/alvistack/ansible-role-svn/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.svn-blue.svg)](https://galaxy.ansible.com/alvistack/svn)
 
