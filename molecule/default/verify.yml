@@ -20,7 +20,7 @@
   tasks:
     - name: svn --version
       shell: |
-        set -o pipefail
+        set -euo pipefail
         svn --version
       args:
         executable: "/bin/bash"
