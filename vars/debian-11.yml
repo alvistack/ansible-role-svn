@@ -14,15 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- hosts: all
-  remote_user: root
-  become: true
-  tasks:
-    - name: svn --version
-      shell: |
-        set -euxo pipefail
-        svn --version
-      args:
-        executable: "/bin/bash"
-      register: result
-      changed_when: result is not succeeded
+_apt:
+  - { state: "latest", name: "subversion" }
+  - { state: "latest", name: "libsvn-java" }
