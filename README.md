@@ -1,5 +1,7 @@
 # Ansible Role for SVN
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-svn/master)](https://gitlab.com/alvistack/ansible-role-svn/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-svn.svg)](https://github.com/alvistack/ansible-role-svn/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-svn.svg)](https://github.com/alvistack/ansible-role-svn/blob/master/LICENSE)
