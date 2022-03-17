@@ -19,7 +19,7 @@
   become: true
   tasks:
     - name: svn --version
-      shell: |
+      ansible.builtin.shell: |
         set -euxo pipefail
         svn --version
       args:
