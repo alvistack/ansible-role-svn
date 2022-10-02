@@ -20,9 +20,10 @@
   become: true
   tasks:
     - name: svn --version
-      ansible.builtin.shell: |
-        set -euxo pipefail
-        svn --version
+      ansible.builtin.shell:
+        cmd: |
+          set -euxo pipefail
+          svn --version
       args:
         executable: "/bin/bash"
       register: result
