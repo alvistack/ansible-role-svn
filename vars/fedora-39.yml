@@ -15,5 +15,5 @@
 # limitations under the License.
 
 _yum:
-  - { state: "latest", name: "subversion" }
-  - { state: "latest", name: "subversion-javahl" }
+  - { state: latest, name: subversion }
+  - { state: latest, name: subversion-javahl }

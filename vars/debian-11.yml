@@ -15,5 +15,5 @@
 # limitations under the License.
 
 _apt:
-  - { state: "latest", name: "subversion" }
-  - { state: "latest", name: "libsvn-java" }
+  - { state: latest, name: subversion }
+  - { state: latest, name: libsvn-java }
