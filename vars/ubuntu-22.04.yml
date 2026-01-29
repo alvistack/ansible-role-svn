@@ -16,4 +16,3 @@
 
 _apt:
   - { state: latest, name: subversion }
-  - { state: latest, name: libsvn-java }
