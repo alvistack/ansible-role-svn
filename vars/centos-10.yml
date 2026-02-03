@@ -16,4 +16,3 @@
 
 _yum:
   - { state: latest, name: subversion }
-  - { state: latest, name: subversion-javahl }
